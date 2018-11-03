@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0FFF0"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/contact_form_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="5dp"
+        android:text="SMSD DIET"
+        android:textColor="#00FF00"
+        android:textColorHint="#C0C0C0"
+        android:textSize="40sp"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/sex"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green"
+        android:textColor="#696969"
+        android:hint="Sex"
+        android:inputType="textCapCharacters" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/green"
+        android:textColor="#696969"
+        android:textColorHint="#C0C0C0"
+        android:hint="Age"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green"
+        android:hint="Weight"
+        android:inputType="number"
+        android:textColorHint="#C0C0C0"/>
+
+    <EditText
+        android:id="@+id/height"
+        android:textColor="#696969"
+        android:textColorHint="#C0C0C0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green"
+        android:hint="Height"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/pDisease"
+        android:textColor="#696969"
+        android:textColorHint="#C0C0C0"
+        android:layout_width="354dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/green"
+        android:breakStrategy="balanced"
+        android:fitsSystemWindows="true"
+        android:gravity="top"
+        android:hint="Current Disease (if any)"
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:singleLine="false" />
+    <EditText
+        android:id="@+id/fDisease"
+        android:layout_width="354dp"
+        android:textColor="#696969"
+        android:textColorHint="#C0C0C0"
+        android:layout_height="46dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/green"
+        android:breakStrategy="balanced"
+        android:fitsSystemWindows="true"
+        android:gravity="top"
+        android:hint="Family's Disease History"
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:singleLine="false" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/green"
+        android:elevation="4dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="Submit"
+        android:textColor="#fff" />
+</LinearLayout>

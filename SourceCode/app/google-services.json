@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "329030440823",
+    "firebase_url": "https://smsddiet.firebaseio.com",
+    "project_id": "smsddiet",
+    "storage_bucket": "smsddiet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329030440823:android:f800bc15ebfb45eb",
+        "android_client_info": {
+          "package_name": "diet.smsd.hackathon.smsddiet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329030440823-ibdq5i0fbimmjo7er3t0fakuiicpj9mr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "diet.smsd.hackathon.smsddiet",
+            "certificate_hash": "917409bf3ef6f81023300f3dfd329ab79623b6b7"
+          }
+        },
+        {
+          "client_id": "329030440823-f8u3aj13rf2tuit4hb91ei6itima22ib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSmBWQwWO9VPe1S3HyZKmNAJGcg-vImx8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329030440823-f8u3aj13rf2tuit4hb91ei6itima22ib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

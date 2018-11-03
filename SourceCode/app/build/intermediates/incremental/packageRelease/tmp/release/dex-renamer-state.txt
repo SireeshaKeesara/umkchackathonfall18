@@ -1,0 +1,4 @@
+#Sat Nov 03 16:34:58 CDT 2018
+base.0=C\:\\Users\\hoang\\Documents\\GitHub\\umkchackathonfall18\\SourceCode\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

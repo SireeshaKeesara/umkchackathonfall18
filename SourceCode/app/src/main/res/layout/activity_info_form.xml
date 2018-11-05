@@ -58,39 +58,6 @@
         android:backgroundTint="@color/green"
         android:hint="Height"
         android:inputType="number" />
-
-    <EditText
-        android:id="@+id/pDisease"
-        android:textColor="#696969"
-        android:textColorHint="#C0C0C0"
-        android:layout_width="354dp"
-        android:layout_height="46dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="@color/green"
-        android:breakStrategy="balanced"
-        android:fitsSystemWindows="true"
-        android:gravity="top"
-        android:hint="Current Disease (if any)"
-        android:inputType="textMultiLine"
-        android:padding="5dp"
-        android:singleLine="false" />
-    <EditText
-        android:id="@+id/fDisease"
-        android:layout_width="354dp"
-        android:textColor="#696969"
-        android:textColorHint="#C0C0C0"
-        android:layout_height="46dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="@color/green"
-        android:breakStrategy="balanced"
-        android:fitsSystemWindows="true"
-        android:gravity="top"
-        android:hint="Family's Disease History"
-        android:inputType="textMultiLine"
-        android:padding="5dp"
-        android:singleLine="false" />
     <Spinner
 
         android:id="@+id/pDisease_spinner"

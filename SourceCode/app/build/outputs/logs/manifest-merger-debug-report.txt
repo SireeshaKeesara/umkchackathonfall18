@@ -21,6 +21,7 @@ MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\hoang\.
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\2ba93a3a46f276e0b5a05ebe7dd67c70\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:28.0.0] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\9f0e289a648aab946133c05e257cc9d4\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\740c020cdd801f663b80fc2eef253515\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\ffab821559e0b4dfee49686dc72c5641\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\e528c419cd7ac1772967566deff6f2c7\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\c621c68c701c11c403b1cae5cd17b5ad\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\20ae73a37297df7143b93d9883476cbe\AndroidManifest.xml:17:1-22:12
@@ -64,6 +65,18 @@ INJECTED from C:\Users\hoang\Documents\GitHub\umkchackathonfall18\SourceCode\app
 		INJECTED from C:\Users\hoang\Documents\GitHub\umkchackathonfall18\SourceCode\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\hoang\Documents\GitHub\umkchackathonfall18\SourceCode\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\hoang\Documents\GitHub\umkchackathonfall18\SourceCode\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\6e828e60b28996d1afee8cb3796b8d47\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\6e828e60b28996d1afee8cb3796b8d47\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d69b77c35db601b2b9b2a81f2864bead\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d69b77c35db601b2b9b2a81f2864bead\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\92749e5e3d5da9c6246c4cd4c549da1b\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\92749e5e3d5da9c6246c4cd4c549da1b\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\904f716ee340fc1b9f4227fd4cee3818\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\904f716ee340fc1b9f4227fd4cee3818\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\hoang\Documents\GitHub\umkchackathonfall18\SourceCode\app\src\main\AndroidManifest.xml:4:22-64
 application
 ADDED from C:\Users\hoang\Documents\GitHub\umkchackathonfall18\SourceCode\app\src\main\AndroidManifest.xml:5:5-20:19
 MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\1a67b79e0aa54df329582b33a75f817c\AndroidManifest.xml:7:5-20
@@ -94,6 +107,8 @@ MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\hoang\.
 MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\05f76e77401b8bb3c706f1ede2cfc161\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\2ba93a3a46f276e0b5a05ebe7dd67c70\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\2ba93a3a46f276e0b5a05ebe7dd67c70\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\ffab821559e0b4dfee49686dc72c5641\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\ffab821559e0b4dfee49686dc72c5641\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\618995821137bf569aa2d87fe8e61cc9\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\618995821137bf569aa2d87fe8e61cc9\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\5230ff30ec1f9972b30b62452612e6c6\AndroidManifest.xml:22:5-23:19
@@ -113,7 +128,7 @@ MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Us
 	android:allowBackup
 		ADDED from C:\Users\hoang\Documents\GitHub\umkchackathonfall18\SourceCode\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\hoang\Documents\GitHub\umkchackathonfall18\SourceCode\app\src\main\AndroidManifest.xml:11:9-47
+		ADDED from C:\Users\hoang\Documents\GitHub\umkchackathonfall18\SourceCode\app\src\main\AndroidManifest.xml:11:9-40
 activity#diet.smsd.hackathon.smsddiet.InfoForm
 ADDED from C:\Users\hoang\Documents\GitHub\umkchackathonfall18\SourceCode\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
@@ -170,6 +185,8 @@ MERGED from [com.android.support:support-v4:28.0.0] C:\Users\hoang\.gradle\cache
 MERGED from [com.android.support:support-v4:28.0.0] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\9f0e289a648aab946133c05e257cc9d4\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\740c020cdd801f663b80fc2eef253515\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\740c020cdd801f663b80fc2eef253515\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\ffab821559e0b4dfee49686dc72c5641\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\ffab821559e0b4dfee49686dc72c5641\AndroidManifest.xml:7:5-43
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\e528c419cd7ac1772967566deff6f2c7\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\e528c419cd7ac1772967566deff6f2c7\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\c621c68c701c11c403b1cae5cd17b5ad\AndroidManifest.xml:20:5-44
@@ -232,16 +249,6 @@ INJECTED from C:\Users\hoang\Documents\GitHub\umkchackathonfall18\SourceCode\app
 		INJECTED from C:\Users\hoang\Documents\GitHub\umkchackathonfall18\SourceCode\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\hoang\Documents\GitHub\umkchackathonfall18\SourceCode\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\hoang\Documents\GitHub\umkchackathonfall18\SourceCode\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\6e828e60b28996d1afee8cb3796b8d47\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d69b77c35db601b2b9b2a81f2864bead\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d69b77c35db601b2b9b2a81f2864bead\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\92749e5e3d5da9c6246c4cd4c549da1b\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\92749e5e3d5da9c6246c4cd4c549da1b\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\904f716ee340fc1b9f4227fd4cee3818\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.0.0.aar\904f716ee340fc1b9f4227fd4cee3818\AndroidManifest.xml:23:5-67
-	android:name
-		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\6e828e60b28996d1afee8cb3796b8d47\AndroidManifest.xml:22:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\6e828e60b28996d1afee8cb3796b8d47\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\hoang\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d69b77c35db601b2b9b2a81f2864bead\AndroidManifest.xml:24:5-79

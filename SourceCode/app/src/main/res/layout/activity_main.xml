@@ -28,5 +28,44 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="133dp"
         android:text="Hello World!" />
+    <TextView
 
+
+        android:layout_width="fill_parent"
+
+        android:textColor="#00FF00"
+        android:layout_height="wrap_content"
+
+
+        android:text="Http GET Demo"/>
+
+    <Button
+
+
+        android:id="@+id/my_button"
+
+
+        android:layout_width="wrap_content"
+
+
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="47dp"
+        android:text="GET" />
+
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="115dp"
+        android:editable="false"
+        android:maxLines="15"
+        android:minLines="15"
+        android:textSize="12sp" />
 </RelativeLayout>

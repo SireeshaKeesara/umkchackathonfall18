@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">SMSDDiet</string>
+    <string-array name="pDisease">
+        <item>English</item>
+        <item>French</item>
+        <item>Spanish</item>
+        <item>Vietnamese</item>
+        <item>German</item>
+        <item>Chinese</item>
+        <item>Russian</item>
+        <item>Japanese</item>
+    </string-array>
+    <string-array name="Disease">
+        <item>Diabetes</item>
+        <item>Diabetes Type-2</item>
+        <item>Heart-Problems</item>
+        <item>High BP</item>
+        <item>Obesity</item>
+    </string-array>
+    <string-array name="fDisease">
+        <item>English</item>
+        <item>French</item>
+        <item>Spanish</item>
+        <item>Vietnamese</item>
+        <item>German</item>
+        <item>Chinese</item>
+        <item>Russian</item>
+        <item>Japanese</item>
+    </string-array>
 </resources>

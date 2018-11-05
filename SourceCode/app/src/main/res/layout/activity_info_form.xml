@@ -91,6 +91,21 @@
         android:inputType="textMultiLine"
         android:padding="5dp"
         android:singleLine="false" />
+    <Spinner
+
+        android:id="@+id/pDisease_spinner"
+        android:textColor="#696969"
+        android:backgroundTint="@color/green"
+        android:textColorHint="#C0C0C0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/fDisease_spinner"
+        android:textColor="#696969"
+        android:backgroundTint="@color/green"
+        android:textColorHint="#C0C0C0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
     <Button
         android:id="@+id/submitBtn"
         android:layout_width="wrap_content"

@@ -28,34 +28,21 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="133dp"
         android:text="Hello World!" />
-    <TextView
-
-
-        android:layout_width="fill_parent"
-
-        android:textColor="#00FF00"
-        android:layout_height="wrap_content"
-
-
-        android:text="Http GET Demo"/>
 
     <Button
-
-
-        android:id="@+id/my_button"
-
-
+        android:id="@+id/backBtn"
         android:layout_width="wrap_content"
-
-
         android:layout_height="wrap_content"
-
-
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_gravity="center"
-        android:layout_marginBottom="47dp"
-        android:text="GET" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="34dp"
+        android:background="@color/green"
+        android:elevation="4dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="BACK"
+        android:textColor="#fff" />
 
     <EditText
         android:id="@+id/content"

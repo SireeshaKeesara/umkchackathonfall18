@@ -1,9 +1,13 @@
 package diet.smsd.hackathon.smsddiet;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -19,7 +23,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 public class MainActivity extends Activity {
-
+    Button mBackBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,9 +32,19 @@ public class MainActivity extends Activity {
         final TextView contentText = (TextView) findViewById(R.id.content);
         captionText.setText("ANALYSIS AND REPORT");
         final ArrayList<String> foodArr = new ArrayList<String>();
+        Intent intent = getIntent();
+        String diet= intent.getStringExtra("diet_param");
+        String health = "";
+        Toast.makeText(getApplicationContext(), "Received: " + diet, Toast.LENGTH_LONG).show();
         //Rest API Call
         RequestQueue requestQueue = Volley.newRequestQueue(this);
-        String URL="https://api.edamam.com/search?q=beef&app_id=c45592f3&app_key=47fbef4a59ce1e90d9fbe3378815bd40&health=vegan";
+        String URL="https://api.edamam.com/search?q=beef&app_id=c45592f3&app_key=47fbef4a59ce1e90d9fbe3378815bd40";
+        if (diet != "None"){
+            URL += "&diet=" + diet;
+        }
+        if (health != ""){
+            URL += "&health" + health;
+        }
         JsonObjectRequest objectRequest = new JsonObjectRequest(
                 Request.Method.GET, URL, null,
                 new Response.Listener<JSONObject>() {
@@ -73,6 +87,15 @@ public class MainActivity extends Activity {
         );
         requestQueue.add(objectRequest);
 
-
-    }
+        ////BACK BUTTOn
+        mBackBtn = (Button) findViewById(R.id.backBtn);
+        mBackBtn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, InfoForm.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+    };
 }
